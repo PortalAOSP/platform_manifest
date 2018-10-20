@@ -1,71 +1,28 @@
-XenonHD
+PornAOSP Pie
 ===========
-Blazing fast, Rock-Hard stability. 
 
-Getting Started
----------------
-To get started with the Xenon sources, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/version-control.html).
-
-
-Create the Directories
-----------------------
-
-You will need to set up some directories in your build environment.
-
-To create them run:
-
-    mkdir -p ~/bin
-    mkdir -p ~/xenon
-
-
-Install the Repository
-----------------------
-
-Enter the following to download the "repo" binary and make it executable:
-
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
-
-You may need to reboot for these changes to take effect. 
-Now enter the following to initialize the repository:
-
-    cd ~/xenon
-
-
-Initializing the XenonHD Source:
+Initializing the PornAOSP Source:
 ---------------
 
 For initializing repo use:
 
-    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b p
+    repo init -u https://github.com/pornypie/platform_manifest.git -b p
 
 Syncing repo:
 
     repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
+Why XenonHD leftovers?
+================
 
-Compiling XenonHD
----------------
-
-Set up environment:
-
-    . build/envsetup.sh
-    
-If your device is officially supported by TeamHorizon, you can do now:
-
-    breakfast <device_codename>
-    
-...to automatically pull all missing repositories. Then:
-
-    brunch <device_codename>
-    
-...to start compilation process.
+I am too lazy
 
 
+	
 Adding support for new device
 ================
 
-If you want to be official maintainer and add XenonHD support for a new device you have to create these two files in device tree:
+If you want to be official maintainer and add PornAOSP support for a new device you have to create these two files in device tree:
 
 xenonhd.mk sample
 ----------
