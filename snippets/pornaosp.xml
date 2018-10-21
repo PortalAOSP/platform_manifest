@@ -12,14 +12,14 @@
     <project path="system/core" name="TeamHorizon/android_system_core" revision="p" groups="pdk" />
     <!-- /TeamHorizon Projects -->
     <!-- Our own files -->
-    <project path="frameworks/base" name="pornypie/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" />
-    <project path="vendor/pornaosp" name="pornypie/vendor_pornaosp" revision="p" />
-    <project path="manifest" name="pornypie/platform_manifest" revision="p" />
-    <project path="packages/apps/Settings" name="pornypie/android_packages_apps_Settings" revision="p" groups="pdk-fs" />
-    <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="p" />
-    <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="p" />
-    <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="p" />
-    <project path="build/make" name="pornypie/android_build" revision="p" groups="pdk">
+    <project path="frameworks/base" name="pornypie/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
+    <project path="vendor/pornaosp" name="pornypie/vendor_pornaosp" revision="teen" />
+    <project path="manifest" name="pornypie/platform_manifest" revision="teen" />
+    <project path="packages/apps/Settings" name="pornypie/android_packages_apps_Settings" revision="teen" groups="pdk-fs" />
+    <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="teen" />
+    <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="teen" />
+    <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
+    <project path="build/make" name="pornypie/android_build" revision="teen" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
