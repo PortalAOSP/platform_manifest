@@ -2,10 +2,6 @@
 <manifest>
     <!-- TeamHorizon Projects -->
     <project path="bionic" name="TeamHorizon/android_bionic" revision="p" groups="pdk" />
-    <project path="build/soong" name="TeamHorizon/android_build_soong" revision="p" groups="pdk,tradefed">
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
     <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" />
     <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" />
     <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="p" />
@@ -27,6 +23,10 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="pornypie/android_build_soong" revision="p" groups="pdk,tradefed">
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <!-- /Our own files-->
     <!-- Remove projects -->
