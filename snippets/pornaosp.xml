@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- TeamHorizon Projects -->
-    <project path="bionic" name="TeamHorizon/android_bionic" revision="p" groups="pdk" />
-    <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" />
-    <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" />
-    <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="p" />
-    <project path="system/core" name="TeamHorizon/android_system_core" revision="p" groups="pdk" />
-    <!-- /TeamHorizon Projects -->
     <!-- Our own files -->
+    <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
+    <project path="lineage-sdk" name="pornypie/android_lineage-sdk" revision="teen" />
+    <project path="frameworks/native" name="pornypie/frameworks_native" revision="teen" groups="pdk" />
+    <project path="frameworks/av" name="pornypie/frameworks_av" revision="teen" groups="pdk" />
+    <project path="bionic" name="pornypie/android_bionic" revision="teen" groups="pdk" />
     <project path="frameworks/base" name="pornypie/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
     <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
     <project path="manifest" name="pornypie/platform_manifest" revision="teen" />
