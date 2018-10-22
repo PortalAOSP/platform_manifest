@@ -12,19 +12,13 @@ Syncing repo:
 
     repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
-Why XenonHD leftovers?
-================
 
-I am too lazy
-
-
-	
 Adding support for new device
 ================
 
 If you want to be official maintainer and add PornAOSP support for a new device you have to create these two files in device tree:
 
-xenonhd.mk sample
+paosp.mk sample
 ----------
 
     # Inherit from those products. Most specific first.
@@ -35,18 +29,18 @@ xenonhd.mk sample
     $(call inherit-product, device/<path>/device.mk) -- path to main device makefile
 
     # Inherit common product files.
-    $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
+    $(call inherit-product, vendor/paosp/config/common_full_phone.mk)
 
     # Set those variables here to overwrite the inherited values.
     BOARD_VENDOR := 
     PRODUCT_BRAND := 
     PRODUCT_DEVICE := 
-    PRODUCT_NAME := xenonhd_device
+    PRODUCT_NAME := paosp_device
     PRODUCT_MANUFACTURER := 
     PRODUCT_MODEL := 
     TARGET_VENDOR := 
 
-xenonhd.dependencies sample
+paosp.dependencies sample
 ----------
 
     [
