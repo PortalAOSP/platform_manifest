@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Our own files -->
-    <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
-    <project path="lineage-sdk" name="pornypie/android_lineage-sdk" revision="teen" />
-    <project path="frameworks/native" name="pornypie/frameworks_native" revision="teen" groups="pdk" />
-    <project path="frameworks/av" name="pornypie/frameworks_av" revision="teen" groups="pdk" />
     <project path="bionic" name="pornypie/android_bionic" revision="teen" groups="pdk" />
-    <project path="frameworks/base" name="pornypie/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
-    <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
-    <project path="manifest" name="pornypie/platform_manifest" revision="teen" />
-    <project path="packages/apps/Settings" name="pornypie/android_packages_apps_Settings" revision="teen" groups="pdk-fs" />
-    <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="teen" />
-    <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="teen" />
-    <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
-    <project path="packages/apps/LineageParts" name="pornypie/android_packages_apps_LineageParts" revision="p" />
-    <project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
-    <project path="packages/overlays/dark" name="pornypie/android_packages_overlays_dark" revision="p" />
-    <project path="packages/overlays/accents" name="pornypie/android_packages_overlays_accents" revision="p" />
-    <project path="packages/overlays/black" name="pornypie/android_packages_overlays_black" revision="p" />
     <project path="build/make" name="pornypie/android_build" revision="teen" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -31,6 +15,22 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="frameworks/av" name="pornypie/frameworks_av" revision="teen" groups="pdk" />
+    <project path="frameworks/base" name="pornypie/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
+    <project path="frameworks/native" name="pornypie/frameworks_native" revision="teen" groups="pdk" />
+    <project path="lineage-sdk" name="pornypie/android_lineage-sdk" revision="teen" />
+    <project path="manifest" name="pornypie/platform_manifest" revision="teen" />
+    <project path="packages/apps/Settings" name="pornypie/android_packages_apps_Settings" revision="teen" groups="pdk-fs" />
+    <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="teen" />
+    <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="teen" />
+    <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
+    <project path="packages/apps/LineageParts" name="pornypie/android_packages_apps_LineageParts" revision="p" />
+    <project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
+    <project path="packages/overlays/dark" name="pornypie/android_packages_overlays_dark" revision="p" />
+    <project path="packages/overlays/accents" name="pornypie/android_packages_overlays_accents" revision="p" />
+    <project path="packages/overlays/black" name="pornypie/android_packages_overlays_black" revision="p" />
+    <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
+    <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
     <!-- /Our own files-->
     <!-- Remove projects -->
     <remove-project name="device/common" />
