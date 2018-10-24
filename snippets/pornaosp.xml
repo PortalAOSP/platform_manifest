@@ -15,6 +15,9 @@
     <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
     <project path="packages/apps/LineageParts" name="pornypie/android_packages_apps_LineageParts" revision="p" />
 	<project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
+	<project path="packages/overlays/dark" name="pornypie/android_packages_overlays_dark" revision="p" />
+	<project path="packages/overlays/accents" name="pornypie/android_packages_overlays_accents" revision="p" />
+    <project path="packages/overlays/black" name="pornypie/android_packages_overlays_black" revision="p" />
     <project path="build/make" name="pornypie/android_build" revision="teen" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
