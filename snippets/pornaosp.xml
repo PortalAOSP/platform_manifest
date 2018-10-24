@@ -24,7 +24,7 @@
     <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="teen" />
     <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="teen" />
     <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
-    <project path="packages/apps/LineageParts" name="pornypie/android_packages_apps_LineageParts" revision="p" />
+    <project path="packages/apps/LineageParts" name="pornypie/android_packages_apps_LineageParts" revision="teen" />
     <project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
     <project path="packages/overlays/dark" name="pornypie/android_packages_overlays_dark" revision="p" />
     <project path="packages/overlays/accents" name="pornypie/android_packages_overlays_accents" revision="p" />
