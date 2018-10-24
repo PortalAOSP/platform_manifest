@@ -1,12 +1,13 @@
 PornAOSP Pie
 ===========
-
+**KEEP IN MIND THAT THIS IS OUR TEST BRANCH !**
+===========
 Initializing the PornAOSP Source:
 ---------------
 
 For initializing repo use:
 
-    repo init -u https://github.com/pornypie/platform_manifest.git -b p
+    repo init -u https://github.com/pornypie/platform_manifest.git -b teen
 
 Syncing repo:
 
