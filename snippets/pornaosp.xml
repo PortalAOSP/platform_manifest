@@ -32,6 +32,11 @@
     <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
     <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
     <!-- /Our own files-->
+    
+    <!-- Wireguard -->
+    <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+    <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+    
     <!-- Remove projects -->
     <remove-project name="device/common" />
     <remove-project name="device/generic/arm64" />
