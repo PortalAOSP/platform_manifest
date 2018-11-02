@@ -12,6 +12,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-9.0.0_r10" />
+  
+  <remote  name="paosp"
+           fetch="https://github.com/pornypie"
+           revision="teen" />
 
   <default revision="refs/heads/lineage-16.0"
            remote="github"
