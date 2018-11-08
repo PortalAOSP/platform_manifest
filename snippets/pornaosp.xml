@@ -51,7 +51,6 @@
     <remove-project name="device/generic/x86_64" />
     <remove-project name="device/google/atv" />
     <remove-project name="device/google/contexthub" />
-    <remove-project name="device/sample" />
     <remove-project name="kernel/tests" />
     <remove-project name="platform/packages/apps/Test/connectivity" />
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
