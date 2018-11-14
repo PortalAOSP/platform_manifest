@@ -19,12 +19,15 @@
     <project path="frameworks/av" name="pornypie/frameworks_av" revision="teen" groups="pdk" />
     <project path="frameworks/base" name="pornypie/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
     <project path="frameworks/native" name="pornypie/frameworks_native" revision="teen" groups="pdk" />
+	<project path="frameworks/opt/telephony" name="pornypie/android_frameworks_opt_telephony" revision="teen" groups="pdk" />
     <project path="manifest" name="pornypie/platform_manifest" revision="teen" />
     <project path="packages/apps/Settings" name="pornypie/android_packages_apps_Settings" revision="teen" groups="pdk-fs" />
     <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="teen" />
     <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="teen" />
     <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
+	<project path="packages/services/Telephony" name="pornypie/android_packages_services_Telephony" revision="teen" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
+	<project path="system/sepolicy" name="pornypie/android_system_sepolicy" revision="teen" groups="pdk" />
     <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
     <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
     <!-- /Our own files-->
