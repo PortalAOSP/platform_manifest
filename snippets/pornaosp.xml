@@ -27,7 +27,7 @@
     <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
 	<project path="packages/services/Telephony" name="pornypie/android_packages_services_Telephony" revision="teen" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
-	<project path="packages/overlays/PornAOSP" name="TeamHorizon/android_packages_overlays_PornAOSP" revision="teen" />
+	<project path="packages/overlays/PornAOSP" name="pornypie/android_packages_overlays_PornAOSP" revision="teen" />
 	<project path="system/sepolicy" name="pornypie/android_system_sepolicy" revision="teen" groups="pdk" />
     <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
     <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
