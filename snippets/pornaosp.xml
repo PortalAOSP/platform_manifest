@@ -35,6 +35,7 @@
     
 	<!-- TeamHorizon -->
 	<project path="packages/apps/Trebuchet" name="TeamHorizon/android_packages_apps_Trebuchet" revision="p" />
+	<project path="packages/apps/LineageParts" name="TeamHorizon/android_packages_apps_LineageParts" revision="p" />
 	<!-- end -->
 	
     <!-- Wireguard -->
