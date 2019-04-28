@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Our own files -->
-    <project path="bionic" name="pornypie/android_bionic" revision="teen" groups="pdk" />
-    <project path="build/make" name="pornypie/android_build" revision="teen" groups="pdk">
+    <project path="bionic" name="PortalAOSP/android_bionic" revision="teen" groups="pdk" />
+    <project path="build/make" name="PortalAOSP/android_build" revision="teen" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,26 +11,26 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/soong" name="pornypie/android_build_soong" revision="teen" groups="pdk,tradefed">
+    <project path="build/soong" name="PortalAOSP/android_build_soong" revision="teen" groups="pdk,tradefed">
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="lineage-sdk" name="pornypie/android_lineage-sdk" revision="teen" />
-    <project path="frameworks/av" name="pornypie/frameworks_av" revision="teen" groups="pdk" />
-    <project path="frameworks/base" name="pornypie/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
-    <project path="frameworks/native" name="pornypie/frameworks_native" revision="teen" groups="pdk" />
-	<project path="frameworks/opt/telephony" name="pornypie/android_frameworks_opt_telephony" revision="teen" groups="pdk" />
-    <project path="manifest" name="pornypie/platform_manifest" revision="teen" />
-    <project path="packages/apps/Settings" name="pornypie/android_packages_apps_Settings" revision="teen" groups="pdk-fs" />
-    <project path="packages/apps/SetupWizard" name="pornypie/android_packages_apps_SetupWizard" revision="teen" />
-    <project path="packages/apps/PornOTA" name="pornypie/android_packages_apps_PornOTA" revision="teen" />
-    <project path="packages/apps/PornSettings" name="pornypie/android_packages_apps_PornSettings" revision="teen" />
-	<project path="packages/services/Telephony" name="pornypie/android_packages_services_Telephony" revision="teen" groups="pdk-cw-fs,pdk-fs" />
-    <project path="packages/apps/PornApps" name="pornypie/android_packages_apps_PornApps" revision="p" />
-	<project path="packages/overlays/PornAOSP" name="pornypie/android_packages_overlays_PornAOSP" revision="teen" />
-	<project path="system/sepolicy" name="pornypie/android_system_sepolicy" revision="teen" groups="pdk" />
-    <project path="system/core" name="pornypie/android_system_core" revision="teen" groups="pdk" />
-    <project path="vendor/paosp" name="pornypie/vendor_paosp" revision="teen" />
+    <project path="lineage-sdk" name="PortalAOSP/android_lineage-sdk" revision="teen" />
+    <project path="frameworks/av" name="PortalAOSP/frameworks_av" revision="teen" groups="pdk" />
+    <project path="frameworks/base" name="PortalAOSP/frameworks_base" revision="teen" groups="pdk-cw-fs,pdk-fs" />
+    <project path="frameworks/native" name="PortalAOSP/frameworks_native" revision="teen" groups="pdk" />
+	<project path="frameworks/opt/telephony" name="PortalAOSP/android_frameworks_opt_telephony" revision="teen" groups="pdk" />
+    <project path="manifest" name="PortalAOSP/platform_manifest" revision="teen" />
+    <project path="packages/apps/Settings" name="PortalAOSP/android_packages_apps_Settings" revision="teen" groups="pdk-fs" />
+    <project path="packages/apps/SetupWizard" name="PortalAOSP/android_packages_apps_SetupWizard" revision="teen" />
+    <project path="packages/apps/PornOTA" name="PortalAOSP/android_packages_apps_PornOTA" revision="teen" />
+    <project path="packages/apps/PornSettings" name="PortalAOSP/android_packages_apps_PornSettings" revision="teen" />
+	<project path="packages/services/Telephony" name="PortalAOSP/android_packages_services_Telephony" revision="teen" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/apps/PornApps" name="PortalAOSP/android_packages_apps_PornApps" revision="p" />
+	<project path="packages/overlays/PornAOSP" name="PortalAOSP/android_packages_overlays_PornAOSP" revision="teen" />
+	<project path="system/sepolicy" name="PortalAOSP/android_system_sepolicy" revision="teen" groups="pdk" />
+    <project path="system/core" name="PortalAOSP/android_system_core" revision="teen" groups="pdk" />
+    <project path="vendor/paosp" name="PortalAOSP/vendor_paosp" revision="teen" />
     <!-- /Our own files-->
     
 	<!-- TeamHorizon -->

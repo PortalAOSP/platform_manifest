@@ -1,13 +1,13 @@
-PornAOSP Pie
+PortalAOSP Pie
 ===========
 **KEEP IN MIND THAT THIS IS OUR TEST BRANCH !**
 ===========
-Initializing the PornAOSP Source:
+Initializing the PortalAOSP Source:
 ---------------
 
 For initializing repo use:
 
-    repo init -u https://github.com/pornypie/platform_manifest.git -b teen
+    repo init -u https://github.com/PortalAOSP/platform_manifest.git -b teen
 
 Syncing repo:
 
@@ -17,7 +17,7 @@ Syncing repo:
 Adding support for new device
 ================
 
-If you want to be official maintainer and add PornAOSP support for a new device you have to create these two files in device tree:
+If you want to be official maintainer and add PortalAOSP support for a new device you have to create these two files in device tree:
 
 paosp.mk sample
 ----------
