@@ -1,6 +1,6 @@
 PortalAOSP Pie
 ===========
-**KEEP IN MIND THAT THIS IS OUR TEST BRANCH !**
+Keep in mind - this rom is nothing serious nor is there a team of professional developers behind it. This rom is made for testing purposes only.
 ===========
 Initializing the PortalAOSP Source:
 ---------------
@@ -13,11 +13,6 @@ Syncing repo:
 
     repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
-
-Adding support for new device
-================
-
-If you want to be official maintainer and add PortalAOSP support for a new device you have to create these two files in device tree:
 
 paosp.mk sample
 ----------
